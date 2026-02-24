@@ -6,7 +6,6 @@ import { LandingPage } from "./pages/Landing";
 import { DashboardPage } from "./pages/Dashboard";
 import { SettingsPage } from "./pages/Settings";
 import { SavedPage } from "./pages/Saved";
-import { DigestPage } from "./pages/Digest";
 import { ProofPage } from "./pages/Proof";
 
 function NotFoundPage() {
@@ -32,7 +31,6 @@ export function AppRoutes() {
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/saved" element={<SavedPage />} />
-        <Route path="/digest" element={<DigestPage />} />
         <Route path="/proof" element={<ProofPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

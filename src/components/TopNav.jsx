@@ -4,9 +4,7 @@ import { NavLink } from "react-router-dom";
 const links = [
   { to: "/dashboard", label: "Dashboard" },
   { to: "/saved", label: "Saved" },
-  { to: "/digest", label: "Digest" },
-  { to: "/settings", label: "Settings" },
-  { to: "/proof", label: "Proof" }
+  { to: "/settings", label: "Settings" }
 ];
 
 export function TopNav() {
