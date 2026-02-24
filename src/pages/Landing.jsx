@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../components/Button";
 import "../styles/base.css";
 
 export function LandingPage() {
@@ -13,9 +12,9 @@ export function LandingPage() {
             Precision-matched job discovery delivered daily at 9AM.
           </p>
         </header>
-        <Button as={Link} to="/settings">
+        <Link to="/settings" className="btn btn--primary" style={{ textDecoration: "none" }}>
           Start Tracking
-        </Button>
+        </Link>
       </div>
     </section>
   );
