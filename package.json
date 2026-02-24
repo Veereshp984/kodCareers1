@@ -1,0 +1,26 @@
+{
+  "name": "job-notification-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Foundational design system for the Job Notification App (MERN-aligned, feature-agnostic).",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "echo \"No linter configured yet\"",
+    "test": "echo \"No tests configured yet\"",
+    "build": "echo \"Bundler not configured yet; integrate into main frontend app\""
+  },
+  "keywords": [
+    "design-system",
+    "job-notification",
+    "saas",
+    "mern"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0"
+  }
+}
+
